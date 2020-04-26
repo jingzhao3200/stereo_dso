@@ -556,7 +556,8 @@ int main( int argc, char** argv )
         gettimeofday(&tv_end, NULL);
 
 
-        fullSystem->printResult("/home/jiatianwu/project/sdso/result.txt");
+//        fullSystem->printResult("/home/jiatianwu/project/sdso/result.txt");
+        fullSystem->printResult("result_sdso.txt");
 
 
         int numFramesProcessed = abs(idsToPlay[0]-idsToPlay.back());
